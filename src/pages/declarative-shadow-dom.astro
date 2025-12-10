@@ -33,6 +33,18 @@
       homepage
     </my-link>
 
+    <my-link>
+      <template shadowrootmode="open">
+        <style>
+          a {
+            color: red;
+          }
+        </style>
+        <a href="https://www.google.com/"><slot is:inline /></a>
+      </template>
+      google
+    </my-link>
+
     <div>
       <a href="https://www.google.com/">test link style. is it red ?</a>
     </div>
